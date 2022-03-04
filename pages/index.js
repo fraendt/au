@@ -12,7 +12,7 @@ const Home = () => {
   const bgVari = {
     initial: {
       backgroundColor: "rgb(255, 255, 255)",
-
+      strokeLinecap: "round"
     },
     fade: {
       backgroundColor: ["rgb(255, 255, 255)", "rgb(255, 0, 0)", "rgb(255, 255, 255)"],
